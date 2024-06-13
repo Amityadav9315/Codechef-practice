@@ -10,6 +10,8 @@ public class PenalityShot {
                 int c=arr[i]%2;
                 if(c==0&&arr[i]==1){
                     count++;
+                    System.out.println("Yes");
+
 
                 }
                 else{
