@@ -10,6 +10,7 @@ class OnlineOrOffline
         Scanner sc=new Scanner(System.in);
 
         {
+            System.out.println("Enter the value of n");
             int n=sc.nextInt();
             int m=sc.nextInt();
             double dis=n-(n*0.1);
