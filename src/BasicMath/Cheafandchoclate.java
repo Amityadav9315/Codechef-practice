@@ -8,7 +8,7 @@ public class Cheafandchoclate {
 
         while (t-- > 0) {
              System.out.println("Enter the value of x,y,z");
-            System.out.println("Entre the value of x");
+            System.out.println("Enter the value of x");
             int x = scanner.nextInt();
             int y = scanner.nextInt();
             int z = scanner.nextInt();
