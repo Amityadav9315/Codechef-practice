@@ -2,7 +2,7 @@ import java.util.*;
 public class CodecheafStreak {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Entre the value of n");
+            System.out.println("Enter the value of n");
             int n=scanner.nextInt();
                 int count1 = 0;
                 int count2 = 0;
@@ -17,7 +17,7 @@ public class CodecheafStreak {
                     if (a[i] > 0) {
                         count1++;
                     } else if (a[i] == 0) {
-                        count2++;
+                        count2=(count2+1)-1;
                     }
                 }
 
@@ -28,7 +28,7 @@ public class CodecheafStreak {
                     if (b[i] > 0) {
                         count3++;
                     } else if (b[i] == 0) {
-                        count4++;
+                        count4=(count4+1)-1;
                     }
                 }
 
