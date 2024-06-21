@@ -3,6 +3,7 @@ public class FilltheGride {
         public static void main (String[] args) throws java.lang.Exception
         {
             Scanner sc=new Scanner(System.in);
+            System.out.println("Entre the value");
                 int n=sc.nextInt();
                 int m=sc.nextInt();
                 int  d=((n%2)*m+(m%2)*n)-1;
