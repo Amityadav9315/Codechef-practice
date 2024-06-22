@@ -2,6 +2,7 @@ import java.util.*;
 public class BestofTwo {
     public static void main(String[] args) throws java.lang.Exception {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the numbre");
         int a1 = sc.nextInt();
         int a2 = sc.nextInt();
         int a3 = sc.nextInt();
