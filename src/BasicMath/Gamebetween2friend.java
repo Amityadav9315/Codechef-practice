@@ -15,7 +15,11 @@ public class Gamebetween2friend {
                     if(b>a){
                         a=a+d;
                     }
-                    if(a>b){
+                    else if(a==b) {
+                        a = a;
+                        b = b;
+                    }
+                    else{
                         b=b+d;
                     }
                     if(a>b){
@@ -30,7 +34,11 @@ public class Gamebetween2friend {
                     if(a>b){
                         b=b+d;
                     }
-                    if(b>a){
+                    else if(a==b){
+                        a=a;
+                        b=b;
+                    }
+                    else{
                         a=a+d;
                     }
                     if(a>b){
