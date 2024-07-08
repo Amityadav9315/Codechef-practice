@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Cheafandchoclate {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the no of test case");
+        System.out.println("Enter  no of test case");
         int t = scanner.nextInt();
 
         while (t-- > 0) {
