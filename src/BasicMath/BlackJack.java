@@ -7,9 +7,9 @@ class BlackJack
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Entre the number of test case");
-        int t=sc.nextInt();
-        while(t-->0){
+       // System.out.println("Entre the number of test case");
+      //  int t=sc.nextInt();
+      //  while(t-->0){
             System.out.println("Entre the value of A");
             int a=sc.nextInt();
             System.out.println("Enter the value of B");
@@ -26,4 +26,4 @@ class BlackJack
         // your code goes here
 
     }
-}
+
