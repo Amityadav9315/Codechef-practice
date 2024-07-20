@@ -6,7 +6,7 @@ public class FloorDifferProblem {
             Scanner sc=new Scanner(System.in);
             int t=sc.nextInt();
             while(t-->0){
-                System.out.println("Entre the value");
+                System.out.println("Enter the value");
                 int  x=sc.nextInt();
                 int  y=sc.nextInt();
                 int  c=x%10;
