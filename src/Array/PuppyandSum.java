@@ -6,7 +6,7 @@ class PuppyandSum {
     public static void main(String[] args) throws java.lang.Exception {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("entre the numbergit ");
+        System.out.println("entre the numbe ");
 
          int sum=0;
         int d = sc.nextInt();
