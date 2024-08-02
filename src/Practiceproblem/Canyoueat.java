@@ -7,6 +7,7 @@ class Canyoueat
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
             int n=sc.nextInt();
             int k=sc.nextInt();
             int d=n%k;
