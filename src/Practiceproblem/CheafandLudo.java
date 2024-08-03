@@ -9,6 +9,7 @@ class Codechef
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
         while(t-->0){
+            System.out.println("Enter the number");
             int n=sc.nextInt();
             if(n==6){
                 System.out.println("Yes");
