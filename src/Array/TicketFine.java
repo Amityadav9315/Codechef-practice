@@ -7,6 +7,7 @@ class TicketFine
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Entre the value");
             int x=sc.nextInt();
             int p=sc.nextInt();
             int q=sc.nextInt();
