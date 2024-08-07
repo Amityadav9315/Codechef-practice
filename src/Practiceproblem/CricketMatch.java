@@ -7,6 +7,7 @@ class CricketMatch
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Entre the number");
             int n=sc.nextInt();
             int m=sc.nextInt();
             int c=6*6*m;
