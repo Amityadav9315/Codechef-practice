@@ -7,6 +7,7 @@ class Marathon
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Entre the number");
             int D=sc.nextInt();
             int d=sc.nextInt();
             int a=sc.nextInt();
