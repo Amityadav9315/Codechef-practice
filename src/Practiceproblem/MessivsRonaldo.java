@@ -7,6 +7,7 @@ class MessivsRonaldo
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Entre the number");
         int a=sc.nextInt();
         int b=sc.nextInt();
         int x=sc.nextInt();
