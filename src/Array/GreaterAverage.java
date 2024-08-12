@@ -10,6 +10,7 @@ class GreaterAverage
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
         while(t-->0){
+            System.out.println("Entre the number");
             float a=sc.nextInt();
             float b =sc.nextInt();
             float c=sc.nextInt();
