@@ -12,8 +12,8 @@ class    Instagram
         while(t-->0){
             int x=sc.nextInt();
             int y=sc.nextInt();
-            int c=x*10;
-            if(c>10){
+            int c=y*10;
+            if(x>c){
                 System.out.println("Yes");
 
             }

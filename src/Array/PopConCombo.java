@@ -7,7 +7,7 @@ class PopConCombo
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Entre the number");
+        System.out.println("Entre the numbre");
             int a1=sc.nextInt();
             int a2=sc.nextInt();
             int b1=sc.nextInt();
