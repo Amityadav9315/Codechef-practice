@@ -7,6 +7,7 @@ class Valtinegift
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Entre the number");
         int t=sc.nextInt();
         while(t-->0){
             int n=sc.nextInt();
