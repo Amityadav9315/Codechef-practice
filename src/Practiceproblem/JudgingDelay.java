@@ -9,6 +9,7 @@ class JudgingDelay
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
         while(t-->0){
+            System.out.println("Entre the number");
             int n=sc.nextInt();
             int count=0;
             for(int i=0; i<n; i++){
