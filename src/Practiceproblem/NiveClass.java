@@ -9,7 +9,7 @@ class NiveClass
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
         while(t-->0){
-            System.out.println("Entre the number");
+            System.out.println("Entre The number");
             int n=sc.nextInt();
             int a=sc.nextInt();
             int b=sc.nextInt();
