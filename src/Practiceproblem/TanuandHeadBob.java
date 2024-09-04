@@ -9,6 +9,7 @@ class TanuandHeadBob
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
         while(t-->0){
+            System.out.println("Entre the number");
             int n=sc.nextInt();
             String str=sc.next();
 
