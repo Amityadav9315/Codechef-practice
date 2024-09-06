@@ -9,6 +9,7 @@ class FriendMeetup
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
         while(t-->0){
+            System.out.println("Entre the number");
             int x1=sc.nextInt();
             int x2=sc.nextInt();
 
