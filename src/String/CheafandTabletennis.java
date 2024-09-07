@@ -8,6 +8,7 @@ class CheafandTabletennis
     {
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
+        System.out.println("Entre the number");
 
         while(t-->0){
             int count=0,count1=0;
