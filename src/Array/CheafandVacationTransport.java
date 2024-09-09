@@ -9,6 +9,7 @@ class CheafandVacatioTransport
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
         while(t-->0){
+            System.out.println("Enter the number");
             int x=sc.nextInt();
             int y=sc.nextInt();
             int z=sc.nextInt();
