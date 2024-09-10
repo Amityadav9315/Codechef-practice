@@ -9,7 +9,7 @@ class GoodQualityBulb
         Scanner sc=new Scanner(System.in);
         int  t=sc.nextInt();
         while(t-->0){
-            System.out.println("Enter the number");
+            System.out.println("Entre the number");
             int n=sc.nextInt();
             int x=sc.nextInt();
             int sum=0;
