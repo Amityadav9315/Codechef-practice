@@ -12,7 +12,7 @@ class WhichMixture
             int a=sc.nextInt();
             int b=sc.nextInt();
             if(a>0&&b>0){
-                System.out.println("Solution");
+                System.out.println("solution");
             }
             else if(b==0){
                 System.out.println("Solid");
