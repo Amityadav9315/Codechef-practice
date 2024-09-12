@@ -7,6 +7,7 @@ class NQueenPuzzle
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
         int d=0;
         int count=0;
 
