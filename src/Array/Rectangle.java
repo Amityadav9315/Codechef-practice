@@ -9,6 +9,7 @@ class Rectangle
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
         while(t-->0){
+            System.out.println("Entre the numnber");
             int a=sc.nextInt();
             int b=sc.nextInt();
             int c=sc.nextInt();
