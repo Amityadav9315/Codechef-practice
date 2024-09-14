@@ -8,6 +8,7 @@ class BetterDeal
     {
         Scanner sc=new Scanner(System.in);
             int a=sc.nextInt();
+        System.out.println("Entre the number");
             int b=sc.nextInt();
             int d=(100-((a%100)*100));
             int e=(200-((b%it 100)*200));
