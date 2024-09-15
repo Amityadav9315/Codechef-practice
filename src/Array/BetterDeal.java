@@ -11,7 +11,7 @@ class BetterDeal
         System.out.println("Entre the number");
             int b=sc.nextInt();
             int d=(100-((a%100)*100));
-            int e=(200-((b%it 100)*200));
+            int e=(200-((b%100)*200));
             if(d<e){
                 System.out.println("First");
             }
