@@ -7,6 +7,7 @@ class Subscription
     public static void main (String[] args) throws java.lang.Exception
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
             int n=sc.nextInt();
             int x=sc.nextInt();
             int d=n/6;
