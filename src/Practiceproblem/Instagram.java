@@ -10,6 +10,7 @@ class    Instagram
         System.out.println("Entre the number");
         int t=sc.nextInt();
         while(t-->0){
+            System.out.println("Entre the number");
             int x=sc.nextInt();
             int y=sc.nextInt();
             int c=y*10;
