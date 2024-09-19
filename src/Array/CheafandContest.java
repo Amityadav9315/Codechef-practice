@@ -2,26 +2,20 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class CheafandContest
-{
-    public static void main (String[] args) throws java.lang.Exception
-    {
+class CheafandContest {
+    public static void main(String[] args) throws java.lang.Exception {
         Scanner sc=new Scanner(System.in);
-        int t=sc.nextInt();
-        while(t-->0){
-            int x=sc.nextInt();
-            int y=sc.nextInt();
-            int p=sc.nextInt();
-            int q=sc.nextInt();
-            int c=x+10*p;
-            int d=y+10*q;
-            if(c<d){
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+            int p = sc.nextInt();
+            int q = sc.nextInt();
+            int c = x + 10 * p;
+            int d = y + 10 * q;
+            if (c < d) {
                 System.out.println("Chef");
-            }
-            else if(c>d){
+            } else if (c > d) {
                 System.out.println("Chefina");
-            }
-            else{
+            } else {
                 System.out.println("Draw");
             }
         }
@@ -29,3 +23,4 @@ class CheafandContest
 
     }
 }
+
