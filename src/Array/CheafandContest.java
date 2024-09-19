@@ -5,6 +5,7 @@ import java.io.*;
 class CheafandContest {
     public static void main(String[] args) throws java.lang.Exception {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Entre the number");
             int x = sc.nextInt();
             int y = sc.nextInt();
             int p = sc.nextInt();
