@@ -23,5 +23,5 @@ class CheafandContest {
         // your code goes here
 
     }
-}
+
 
