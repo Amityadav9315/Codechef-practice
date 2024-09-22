@@ -3,7 +3,7 @@ import java.util.*;
 public class GoodWeather {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number");
+        System.out.println("Entre the number");
         int count = 0;
         int count1 = 0;
         int[] arr = new int[7];
