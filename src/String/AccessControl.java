@@ -6,16 +6,40 @@ public class AccessControl {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int x=sc.nextInt();
-        int count=0;
-        int count1=0;
-
+        int c=0;
+        int d=0;
         int[] arr=new int[n];
         for(int i=0; i<n; i++){
             arr[i]=sc.nextInt();
         }
-        for(int j=0; j<n; j++){
+
+
+
+
+        for(int i=0; i<n; i++){
+        if(arr[0]==0) {
+            d=1;
+        }
+            else if(arr[i]==1){
+                 c=1*x;
+
+                }
+
+            else{
+                c=c-1;
+            }
 
         }
+        if(d==1){
+            System.out.println("No");
+        }
+        else if(c>=0){
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+
 
 
     }
