@@ -12,15 +12,13 @@ public class AccessControl {
         for(int i=0; i<n; i++){
             arr[i]=sc.nextInt();
         }
-
-
-
-
-        for(int i=0; i<n; i++){
         if(arr[0]==0) {
             d=1;
         }
-            else if(arr[i]==1){
+
+        for(int i=0; i<n; i++){
+
+             if(arr[i]==1){
                  c=1*x;
 
                 }
