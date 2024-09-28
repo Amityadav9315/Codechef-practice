@@ -5,6 +5,7 @@ public class FakeCertificate {
         public static void main(String[] args){
 
             Scanner sc=new Scanner(System.in);
+            System.out.println();
                 int n=sc.nextInt();
                 int count=0;
                 int count1=0;
