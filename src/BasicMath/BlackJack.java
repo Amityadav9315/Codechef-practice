@@ -12,7 +12,7 @@ class BlackJack
       //  while(t-->0){
             System.out.println("Entre the value of A");
             int a=sc.nextInt();
-            System.out.println("Enter the value of B");
+            System.out.println("Enter the value of ");
             int b=sc.nextInt();
             int c=21-(a+b);
             if(c>=1&&c<=10){
