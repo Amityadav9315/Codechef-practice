@@ -8,7 +8,7 @@ class DiscussThrow
     {
         // try{
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the no of test case);
+        System.out.println("Enter the no of test case");
         int t=sc.nextInt();
         while(t-->0){
             System.out.println("Enter the value of a");
