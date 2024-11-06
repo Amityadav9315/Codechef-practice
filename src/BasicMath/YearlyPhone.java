@@ -8,6 +8,7 @@ class YearlyPhone
     {
         // your code goes here
         Scanner s = new Scanner(System.in);
+        System.out.println();
         int t= s.nextInt();
         int b = t%100;
         if( b>=0 && b<=9){
